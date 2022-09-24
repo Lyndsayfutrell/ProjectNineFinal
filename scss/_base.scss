@@ -9,7 +9,7 @@ body {
 
 section.container {
     scroll-snap-align: start;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 h1 {
@@ -24,6 +24,7 @@ h1 {
     text-align: center;
     h1{
         width: 100%;
+        padding-top: 4em;
     }
 .about-text {
     display: flex;
