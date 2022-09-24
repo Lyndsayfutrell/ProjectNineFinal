@@ -1,0 +1,80 @@
+@media (min-width:628px) {
+    .modal-dialog {
+        width: 70%;
+        margin-top: 3em;
+    }
+.port-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .projectImage {
+        width: 40%;
+    }
+    }
+    svg.logo {
+        padding-top: 2em;
+        width: 75%;
+        margin: auto;
+    }
+    .about {
+        width: 100%;
+    .about-text {
+        padding-top: 2em;
+        flex-direction: row;
+        img{
+            width: 40%;
+            padding-bottom: 0;
+        }
+        p {
+            width: 40%;
+        }
+    }
+}
+
+}
+
+@media (min-width:1024px) {
+    .modal-dialog {
+        margin-top: 2em;
+    }
+    .modal-content{
+        img {
+           width: 80%; 
+        }
+    }
+    .port-container {
+        .projectImage {
+            width: 29%;
+        }
+    }
+    svg.logo {
+        padding-top: 4.5em;
+
+    }
+
+    .about .about-text {
+        padding-top: 1em;
+
+        img{
+            width: 35%;
+            padding-left: 1em;
+        }
+        p {
+            width: 30%;
+            font-size: 1.5em;
+            padding-right: 1em;
+        }
+    }
+
+}
+
+@media (min-width:1281px) {
+    .modal-dialog {
+        margin-top: .2em;
+    }
+    .modal-content{
+        img {
+           height: 60%; 
+        }
+    }
+}

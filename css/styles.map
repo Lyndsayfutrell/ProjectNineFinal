@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/_index.scss",
+		"../scss/_variables.scss",
+		"../scss/_base.scss",
+		"../scss/_game.scss",
+		"../scss/_nav.scss",
+		"../scss/_portfolio.scss"
+	],
+	"sourcesContent": [
+		"@import 'index';",
+		"@import 'variables';\n@import 'base';\n@import 'game';\n@import 'nav';\n@import 'portfolio';",
+		"$main-color-dark: #CBC8C8;\n$main-color-light: #A76BB0;\n$font-color: #0C1713;\n$black: black;\n$white: white;\n$accent-color-dark: #714955;\n$accent-color-light: #BCA0BB;\n",
+		"@font-face {\n    font-family: \"Silkscreen\";\n    src: url(\"../font/silkscreen/slkscr.ttf\") format(\"truetype\");\n\n    }\n\nhtml {\n    font-family: 'Work Sans', sans-serif;\n    scroll-snap-type: y mandatory;\n    overflow-y: scroll;\n\n}\nbody {\n    overscroll-behavior-y: none;\n}\nsection.container {\n    scroll-snap-align: center;\n    height: calc(100vh);\n}\n\n\n\nh1 {\n    color: $black;\n}\n\nsvg {\n    width: 30px;\n}\nsection.contact,\nsection.skills {\n    height: 50vh;\n    div .col {\n        height: 50px;\n    }\n}\nsvg {\n    width: 50px;\n    &:hover {\n    &> .icon {\n        transition: all 0.8s ease-in-out;\n        transform: rotateY(360deg); \n        transform-origin: 50% 50%;\n    } \n    }\n}\n\n .icon{\n    fill: white;\n }\n\n\n\n.html {\n    fill: #FFADAD;\n}\n.css {\n    fill: #FFD6A5;\n}\n.git {\n    fill:  #9BF6FF\n}\n.boot {\n    fill: #FDFFB6;\n}\n.sql {\n    fill: #A0C4FF;\n}\n.java {\n    fill:#CAFFBF;\n}\n.email {\n    fill: #BDB2FF;\n}\n.git2 {\n    fill: #FFC6FF;\n}\n.linked{\n    fill:#CAFFBF;\n}",
+		"",
+		".nav-link {\n    color: $black;\n    &:hover {\n        cursor: pointer;\n    }\n}\n\n.navbar {\n    background-color: $white;\n\n    &-nav {\n        a.active {\n            border-bottom: 1px solid $black;\n        }\n        }\n    }\n\n    .navbar-text {\n        color: $white;\n    }\n    \n    .navbar-toggler {\n        border: none;\n    \n    }\n",
+		""
+	],
+	"names": [],
+	"mappings": "AGAA,UAAU;EACN,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,oCAAoC,CAAC,kBAAkB;;;;AAIhE,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,uBAAuB;EACpC,gBAAgB,EAAE,WAAW;EAC7B,UAAU,EAAE,MAAM;CAErB;;;AACD,AAAA,IAAI,CAAC;EACD,qBAAqB,EAAE,IAAI;CAC9B;;;AACD,AAAA,OAAO,AAAA,UAAU,CAAC;EACd,iBAAiB,EAAE,MAAM;EACzB,MAAM,EAAE,WAAW;CACtB;;;AAID,AAAA,EAAE,CAAC;EACC,KAAK,EDpBD,KAAK;CCqBZ;;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;;AACD,AAAA,OAAO,AAAA,QAAQ;AACf,OAAO,AAAA,OAAO,CAAC;EACX,MAAM,EAAE,IAAI;CAIf;;;AAND,AAGI,OAHG,AAAA,QAAQ,CAGX,GAAG,CAAC,IAAI;AAFZ,OAAO,AAAA,OAAO,CAEV,GAAG,CAAC,IAAI,CAAC;EACL,MAAM,EAAE,IAAI;CACf;;;AAEL,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CAQd;;;AATD,AAGI,GAHD,AAEE,MAAM,GACJ,KAAK,CAAC;EACL,UAAU,EAAE,oBAAoB;EAChC,SAAS,EAAE,eAAe;EAC1B,gBAAgB,EAAE,OAAO;CAC5B;;;AAIJ,AAAA,KAAK,CAAA;EACF,IAAI,EAAE,KAAK;CACb;;;AAIF,AAAA,KAAK,CAAC;EACF,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,IAAI,CAAC;EACD,IAAI,EAAG,OACX;CAAC;;;AACD,AAAA,KAAK,CAAC;EACF,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,KAAK,CAAC;EACF,IAAI,EAAC,OAAO;CACf;;;AACD,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,KAAK,CAAC;EACF,IAAI,EAAE,OAAO;CAChB;;;AACD,AAAA,OAAO,CAAA;EACH,IAAI,EAAC,OAAO;CACf;;;AE/ED,AAAA,SAAS,CAAC;EACN,KAAK,EHED,KAAK;CGEZ;;;AALD,AAEI,SAFK,AAEJ,MAAM,CAAC;EACJ,MAAM,EAAE,OAAO;CAClB;;;AAGL,AAAA,OAAO,CAAC;EACJ,gBAAgB,EHJZ,KAAK;CGWR;;;AALA,AACG,WADC,CACD,CAAC,AAAA,OAAO,CAAC;EACL,aAAa,EAAE,GAAG,CAAC,KAAK,CHT5B,KAAK;CGUJ;;;AAIL,AAAA,YAAY,CAAC;EACT,KAAK,EHdL,KAAK;CGeR;;;AAED,AAAA,eAAe,CAAC;EACZ,MAAM,EAAE,IAAI;CAEf"
+}

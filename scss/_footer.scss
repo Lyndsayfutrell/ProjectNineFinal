@@ -1,0 +1,53 @@
+svg {
+    width: 30px;
+}
+section.contact,
+section.skills {
+    min-height: 50vh;
+    div .col {
+        height: 50px;
+    }
+}
+svg {
+    width: 50px;
+    &:hover {
+    &> .icon {
+        transition: all 0.8s ease-in-out;
+        transform: rotateY(360deg); 
+        transform-origin: 50% 50%;
+    } 
+    }
+}
+
+ .icon{
+    fill: white;
+ }
+
+
+.html {
+    fill: #FFADAD;
+}
+.css {
+    fill: #FFD6A5;
+}
+.git {
+    fill:  #9BF6FF
+}
+.boot {
+    fill: #FDFFB6;
+}
+.sql {
+    fill: #A0C4FF;
+}
+.java {
+    fill:#CAFFBF;
+}
+.email {
+    fill: #BDB2FF;
+}
+.git2 {
+    fill: #FFC6FF;
+}
+.linked{
+    fill:#CAFFBF;
+}

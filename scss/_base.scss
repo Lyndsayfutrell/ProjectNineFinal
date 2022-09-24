@@ -1,0 +1,70 @@
+
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 200;
+
+}
+}
+body {
+    overscroll-behavior-y: none;
+    
+}
+section.container {
+    scroll-snap-align: start;
+    min-height: 100vh;
+}
+
+h1 {
+    color: $black;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.about {
+    text-align: center;
+    h1{
+        width: 100%;
+    }
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    p{
+        width: 85%;
+        margin: auto;
+        font-size: 1.2em;
+    }
+    img {
+    width: 90%;
+    border-radius: 2px;
+    padding-bottom: 1em;
+    margin: auto;
+}
+}
+}
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+  
+  .scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+  }
+  
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  

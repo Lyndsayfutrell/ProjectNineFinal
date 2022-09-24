@@ -1,0 +1,44 @@
+@keyframes grow {
+
+  0%  {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1);
+    
+  }
+  60% {
+    transform: scale(0.9);
+    
+}
+}
+
+@keyframes offset {
+    100% {
+        stroke-dashoffset: 0;
+    }
+
+}
+
+
+//svg styles
+svg.logo {
+    transform-origin: 50% 50%;
+    width: 100%;
+    display: block;
+}
+
+g.flower {
+    
+    animation: offset 6s 1s linear forwards;
+    stroke: #d4917e;
+    stroke-width: 1;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+
+}
+
+.outer {
+    animation: grow 1s ease-in-out;
+
+}

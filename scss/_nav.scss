@@ -1,0 +1,25 @@
+.nav-link {
+    color: $black;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.navbar {
+    background-color: $white;
+
+    &-nav {
+        a.active {
+            border-bottom: 1px solid $black;
+        }
+        }
+    }
+
+    .navbar-text {
+        color: $white;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    
+    }
